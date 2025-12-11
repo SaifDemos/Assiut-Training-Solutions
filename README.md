@@ -75,7 +75,7 @@ This table tracks the overall progress across all the Newcomers Sheets.
 
 | # | Problem Title | Solution Link (Java) | Status |
 | :---: | :--- | :---: | :---: |
-| A | Print Recursion | [Solution](./Sheet%20#7%20(Recursion)/A.Print%20Recursion/A.java) | ✅ |
+| A | Print Recursion | [Solution](./Sheet%20%237%20(Recursion)/A.Print%20Recursion/A.java) | ✅ |
 | B | Print from 1 to N | [Solution](./Sheet%20#7%20(Recursion)/B.Print%20from%201%20to%20N/B.java) | ✅ |
 | C | Print from N to 1 | [Solution](./Sheet%20#7%20(Recursion)/C.Print%20from%20N%20to%201/C.java) | ✅ |
 | D | Print Digits using Recursion | [Solution](./Sheet%20#7%20(Recursion)/D.Print%20Digits%20using%20Recursion/D.java) | ✅ |
