@@ -9,6 +9,8 @@ public class A {
         Scanner input = new Scanner(System.in);
         int x = input.nextInt(); // the N number
         System.out.println(print(x)); // calling the recursion
+        // edited by Hussain
+        System.out.println("End\n");
     }
  
  
@@ -21,4 +23,5 @@ public class A {
        System.out.println("I love Recursion");
        return print(x-1); // reverse counter to hit base case after N times
     }
+    
 }
