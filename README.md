@@ -36,23 +36,26 @@ This table tracks the overall progress across all the Newcomers Sheets.
 
 | Sheet | Total Problems | Solved | Status |
 | :---: | :---: | :---: | :--- |
-| **Sheet 01** | 26 | 26 | ✅ Done |
-| **Sheet 02** | 26 | 15 | ⏳ In Progress |
-| **Sheet 03** | 26 | 0 | ❌ To Do |
-| **Sheet 04** | 26 | 0 | ❌ To Do |
-| **Sheet 05** | 26 | 0 | ❌ To Do |
-| **Sheet 06** | 26 | 0 | ❌ To Do |
-| **Sheet 07** | 26 | 0 | ❌ To Do |
-| **Sheet 08** | 26 | 0 | ❌ To Do |
-| **Sheet 09** | 26 | 0 | ❌ To Do |
-| **Sheet 10** | 26 | 0 | ❌ To Do |
-| **TOTAL** | **260** | **0** | |
+| **Sheet #1 (Data type - Conditions)** | 26 | 26 | ✅ Done |
+| **Sheet #2 (Loops)** | 26 | 0 | ❌ To Do |
+| **Sheet #3 (Arrays)** | 26 | 0 | ❌ To Do |
+| **Sheet #4 (Strings)** | 26 | 0 | ❌ To Do |
+| **Sheet #5 (Functions)** | 15 | 0 | ❌ To Do |
+| **Sheet #6 (Math - Geometry)** | 26 | 0 | ❌ To Do |
+| **Sheet #7 (Recursion)** | 26 | 4 | ⏳ In Progress |
+| **Sheet #8 (General easy)** | 26 | 0 | ❌ To Do |
+| **Sheet #9 (General medium)** | 26 | 0 | ❌ To Do |
+| **Sheet #10 (General Hard)** | 26 | 0 | ❌ To Do |
+| **Contest #1** | 9 | 0 | ❌ To Do |
+| **Contest #2** | 8 | 0 | ❌ To Do |
+| **Contest #3.1** | 7 | 0 | ❌ To Do |
+| **TOTAL** | **247** | **30** | |
 
 ---
 
 ## 📑 Detailed Sheet Solutions
 
-### Sheet 01 Solutions
+### Sheet #1 (Data type - Conditions) Solutions
 
 *(Update this table with the actual problems and links as they are solved.)*
 
@@ -64,9 +67,20 @@ This table tracks the overall progress across all the Newcomers Sheets.
 | ... | ... | ... | ... |
 | Z | [Problem Z Title] | [Solution](./Sheet_01/26_Z_Problem_Z_Title/ProblemZTitle.java) | ❌ |
 
-### Sheet 02 Solutions
+### Sheet #2 (Loops) Solutions
 
 *(Add a similar table here for Sheet 02 when you begin solving it.)*
+
+### Sheet #7 (Recursion) Solutions
+
+| # | Problem Title | Solution Link (Java) | Status |
+| :---: | :--- | :---: | :---: |
+| A | Print Recursion | [Solution](./Sheet%20#7%20(Recursion)/A.Print%20Recursion/A.java) | ✅ |
+| B | Print from 1 to N | [Solution](./Sheet%20#7%20(Recursion)/B.Print%20from%201%20to%20N/B.java) | ✅ |
+| C | Print from N to 1 | [Solution](./Sheet%20#7%20(Recursion)/C.Print%20from%20N%20to%201/C.java) | ✅ |
+| D | Print Digits using Recursion | [Solution](./Sheet%20#7%20(Recursion)/D.Print%20Digits%20using%20Recursion/D.java) | ✅ |
+| ... | ... | ... | ... |
+| Z | [Problem Z Title] | [Solution](./Sheet_01/26_Z_Problem_Z_Title/ProblemZTitle.java) | ❌ |
 
 ---
 
