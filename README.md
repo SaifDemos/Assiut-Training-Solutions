@@ -30,57 +30,12 @@ The primary goal of this collaborative repository is to:
 The solutions are organized logically by sheet, and then by problem identifier to ensure easy navigation and maintainability.
 
 Each problem is contained in its own folder, and the Java file inside is named to match the public class (typically based on the problem title).
-## 📈 Sheets Progress Overview
 
-This table tracks the overall progress across all the Newcomers Sheets.
+## 🔍 Solutions and Progress Status
 
-| Sheet | Total Problems | Solved | Status |
-| :---: | :---: | :---: | :--- |
-| **Sheet #1 (Data type - Conditions)** | 26 | 26 | ✅ Done |
-| **Sheet #2 (Loops)** | 26 | 0 | ❌ To Do |
-| **Sheet #3 (Arrays)** | 26 | 0 | ❌ To Do |
-| **Sheet #4 (Strings)** | 26 | 0 | ❌ To Do |
-| **Sheet #5 (Functions)** | 15 | 0 | ❌ To Do |
-| **Sheet #6 (Math - Geometry)** | 26 | 0 | ❌ To Do |
-| **Sheet #7 (Recursion)** | 26 | 4 | ⏳ In Progress |
-| **Sheet #8 (General easy)** | 26 | 0 | ❌ To Do |
-| **Sheet #9 (General medium)** | 26 | 0 | ❌ To Do |
-| **Sheet #10 (General Hard)** | 26 | 0 | ❌ To Do |
-| **Contest #1** | 9 | 0 | ❌ To Do |
-| **Contest #2** | 8 | 0 | ❌ To Do |
-| **Contest #3.1** | 7 | 0 | ❌ To Do |
-| **TOTAL** | **247** | **30** | |
+All detailed solution links and the current completion status for every sheet (Sheet 01 through Sheet 10) are tracked in a dedicated file.
 
----
-
-## 📑 Detailed Sheet Solutions
-
-### Sheet #1 (Data type - Conditions) Solutions
-
-*(Update this table with the actual problems and links as they are solved.)*
-
-| # | Problem Title | Solution Link (Java) | Status |
-| :---: | :--- | :---: | :---: |
-| A | [Problem A Title] | [Solution](./Sheet_01/01_A_Problem_A_Title/ProblemATitle.java) | ✅ |
-| B | [Problem B Title] | [Solution](./Sheet_01/02_B_Problem_B_Title/ProblemBTitle.java) | ❌ |
-| C | [Problem C Title] | [Solution](./Sheet_01/03_C_Problem_C_Title/ProblemCTitle.java) | ❌ |
-| ... | ... | ... | ... |
-| Z | [Problem Z Title] | [Solution](./Sheet_01/26_Z_Problem_Z_Title/ProblemZTitle.java) | ❌ |
-
-### Sheet #2 (Loops) Solutions
-
-*(Add a similar table here for Sheet 02 when you begin solving it.)*
-
-### Sheet #7 (Recursion) Solutions
-
-| # | Problem Title | Solution Link (Java) | Status |
-| :---: | :--- | :---: | :---: |
-| A | Print Recursion | [Solution](./Sheet%20%237%20(Recursion)/A.Print%20Recursion/A.java) | ✅ |
-| B | Print from 1 to N | [Solution](./Sheet%20#7%20(Recursion)/B.Print%20from%201%20to%20N/B.java) | ✅ |
-| C | Print from N to 1 | [Solution](./Sheet%20#7%20(Recursion)/C.Print%20from%20N%20to%201/C.java) | ✅ |
-| D | Print Digits using Recursion | [Solution](./Sheet%20#7%20(Recursion)/D.Print%20Digits%20using%20Recursion/D.java) | ✅ |
-| ... | ... | ... | ... |
-| Z | [Problem Z Title] | [Solution](./Sheet_01/26_Z_Problem_Z_Title/ProblemZTitle.java) | ❌ |
+**[View Full Progress and Solution Links Here →](./SOLUTIONS.md)**
 
 ---
 
@@ -91,10 +46,8 @@ We welcome contributions from friends and fellow students! To contribute a solut
 1.  **Fork** or **Clone** this repository.
 2.  Create a new branch for your solution (e.g., `feat/sheet3-problemA`).
 3.  Add your Java solution file in the correct directory: `/Sheet_XX/Problem_XX_Title/YourSolution.java`.
-4.  Commit your changes, push the branch, and open a **Pull Request (PR)**.
-5.  **Update the README:** Please ensure you update the following sections in `README.md` within your Pull Request:
-    * **"Sheets Progress Overview":** Increment the **Solved** count for the relevant sheet. Update the **Status** emoji (e.g., from ❌ to ⏳ if started to handle a full sheet, or ❌ to ✅ if completed the problem\sheet).
-    * **"Detailed Sheet Solutions":** Add the problem title and the link to your new solution file in the correct sheet table. Change the Status emoji for that problem to ✅.
+4.  **Update `SOLUTIONS.md`** with your solved problem (status and link).
+5.  Commit your changes, push the branch, and open a **Pull Request (PR)**.
 
 Solutions must be correctly formatted, adhere to Java conventions, and pass all required test cases.
 
