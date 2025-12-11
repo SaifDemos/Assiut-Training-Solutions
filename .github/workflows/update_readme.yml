@@ -1,0 +1,35 @@
+name: 📝 Update README Progress
+
+on:
+  push:
+    branches:
+      - main
+      - master # Use 'master' if that is your main branch name
+    paths:
+      - 'Sheet_**/*.java' # Only trigger if a Java file is modified in a sheet folder
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Required to push changes later
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run README update script
+        run: python update_readme.py
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'ci: 🤖 Automatic README progress update'
+          # Use a simple pattern matching the readme
+          file_pattern: 'README.md'

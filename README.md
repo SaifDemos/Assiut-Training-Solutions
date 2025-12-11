@@ -36,8 +36,8 @@ This table tracks the overall progress across all the Newcomers Sheets.
 
 | Sheet | Total Problems | Solved | Status |
 | :---: | :---: | :---: | :--- |
-| **Sheet 01** | 26 | 26 | ✅ Done |
-| **Sheet 02** | 26 | 15 | ⏳ In Progress |
+| **Sheet 01** | 26 | 0 | ❌ To Do |
+| **Sheet 02** | 26 | 0 | ❌ To Do |
 | **Sheet 03** | 26 | 0 | ❌ To Do |
 | **Sheet 04** | 26 | 0 | ❌ To Do |
 | **Sheet 05** | 26 | 0 | ❌ To Do |
@@ -58,7 +58,7 @@ This table tracks the overall progress across all the Newcomers Sheets.
 
 | # | Problem Title | Solution Link (Java) | Status |
 | :---: | :--- | :---: | :---: |
-| A | [Problem A Title] | [Solution](./Sheet_01/01_A_Problem_A_Title/ProblemATitle.java) | ✅ |
+| A | [Problem A Title] | [Solution](./Sheet_01/01_A_Problem_A_Title/ProblemATitle.java) | ❌ |
 | B | [Problem B Title] | [Solution](./Sheet_01/02_B_Problem_B_Title/ProblemBTitle.java) | ❌ |
 | C | [Problem C Title] | [Solution](./Sheet_01/03_C_Problem_C_Title/ProblemCTitle.java) | ❌ |
 | ... | ... | ... | ... |
@@ -77,10 +77,8 @@ We welcome contributions from friends and fellow students! To contribute a solut
 1.  **Fork** or **Clone** this repository.
 2.  Create a new branch for your solution (e.g., `feat/sheet3-problemA`).
 3.  Add your Java solution file in the correct directory: `/Sheet_XX/Problem_XX_Title/YourSolution.java`.
-4.  Commit your changes, push the branch, and open a **Pull Request (PR)**.
-5.  **Update the README:** Please ensure you update the following sections in `README.md` within your Pull Request:
-    * **"Sheets Progress Overview":** Increment the **Solved** count for the relevant sheet. Update the **Status** emoji (e.g., from ❌ to ⏳ if started to handle a full sheet, or ❌ to ✅ if completed the problem\sheet).
-    * **"Detailed Sheet Solutions":** Add the problem title and the link to your new solution file in the correct sheet table. Change the Status emoji for that problem to ✅.
+4.  Commit your changes and push the branch.
+5.  Open a **Pull Request (PR)**. (The progress table will be updated automatically upon merge!)
 
 Solutions must be correctly formatted, adhere to Java conventions, and pass all required test cases.
 
