@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
-    @author SaifDemos
+    @SaifDemos
 */
  
 public class A {

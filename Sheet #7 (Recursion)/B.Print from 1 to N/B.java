@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
-    @author SaifDemos
+    @SaifDemos
 */
 public class B {
     public static void main(String[] args) {

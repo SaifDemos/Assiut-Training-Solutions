@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
-    @author SaifDemos
+    @SaifDemos
 */
 public class C {
     public static void main(String[] args) {
